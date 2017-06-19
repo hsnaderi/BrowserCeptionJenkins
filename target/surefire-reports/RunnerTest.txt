@@ -1,0 +1,244 @@
+-------------------------------------------------------------------------------
+Test set: RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 4, Skipped: 2, Time elapsed: 90.563 sec <<< FAILURE!
+When Testing BrowserStack Live via BrowserStack automate(Scenario: This is the set up and test for Firefox)  Time elapsed: 0.012 sec  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'mac-207-254-75-70.browserstack.com', ip: 'fe80:0:0:0:3ac9:86ff:fe58:49b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/br/0vpjgh5901l1w5jfv__6qpxm0000hk/T/rust_mozprofile.d1NyADTyYv27, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=14.5.0, moz:processID=15079.0, browserName=firefox, javascriptEnabled=true, platformName=darwin}]
+Session ID: 15ae4866-f9f0-0a42-b76a-dd66d3910a6f
+Command duration or timeout: 98 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at TestSteps.testing_BrowserStack_Live_via_BrowserStack_automate(TestSteps.java:79)
+	at ✽.When Testing BrowserStack Live via BrowserStack automate(browserception.feature:10)
+Caused by: org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'mac-207-254-75-70.browserstack.com', ip: 'fe80:0:0:0:3ac9:86ff:fe58:49b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/br/0vpjgh5901l1w5jfv__6qpxm0000hk/T/rust_mozprofile.d1NyADTyYv27, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=14.5.0, moz:processID=15079.0, browserName=firefox, javascriptEnabled=true, platformName=darwin}]
+Session ID: 15ae4866-f9f0-0a42-b76a-dd66d3910a6f
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'Haroons-MacBook-Pro.local', ip: 'fe80:0:0:0:403:c025:4f2d:ef5e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.1', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Scenario: This is the set up and test for Firefox  Time elapsed: 0.014 sec  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'mac-207-254-75-70.browserstack.com', ip: 'fe80:0:0:0:3ac9:86ff:fe58:49b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/br/0vpjgh5901l1w5jfv__6qpxm0000hk/T/rust_mozprofile.d1NyADTyYv27, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=14.5.0, moz:processID=15079.0, browserName=firefox, javascriptEnabled=true, platformName=darwin}]
+Session ID: 15ae4866-f9f0-0a42-b76a-dd66d3910a6f
+Command duration or timeout: 98 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at TestSteps.testing_BrowserStack_Live_via_BrowserStack_automate(TestSteps.java:79)
+	at ✽.When Testing BrowserStack Live via BrowserStack automate(browserception.feature:10)
+Caused by: org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'mac-207-254-75-70.browserstack.com', ip: 'fe80:0:0:0:3ac9:86ff:fe58:49b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/br/0vpjgh5901l1w5jfv__6qpxm0000hk/T/rust_mozprofile.d1NyADTyYv27, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=14.5.0, moz:processID=15079.0, browserName=firefox, javascriptEnabled=true, platformName=darwin}]
+Session ID: 15ae4866-f9f0-0a42-b76a-dd66d3910a6f
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'Haroons-MacBook-Pro.local', ip: 'fe80:0:0:0:403:c025:4f2d:ef5e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.1', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+When Testing BrowserStack Live via BrowserStack automate(Scenario: This is the set up and test for Safari)  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.InvalidElementStateException: Element is not currently interactable and may not be manipulated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'mac-207-254-75-12.browserstack.com', ip: '207.254.75.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_65'
+Session ID: null
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{platform=MAC, cssSelectorsEnabled=true, javascriptEnabled=true, secureSsl=true, browserName=safari, takesScreenshot=true, version=5.1.9}]
+Command duration or timeout: 74 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+	at TestSteps.testing_BrowserStack_Live_via_BrowserStack_automate(TestSteps.java:70)
+	at ✽.When Testing BrowserStack Live via BrowserStack automate(browserception.feature:15)
+Caused by: org.openqa.selenium.InvalidElementStateException: Element is not currently interactable and may not be manipulated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'mac-207-254-75-12.browserstack.com', ip: '207.254.75.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_65'
+Session ID: null
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{platform=MAC, cssSelectorsEnabled=true, javascriptEnabled=true, secureSsl=true, browserName=safari, takesScreenshot=true, version=5.1.9}]
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'Haroons-MacBook-Pro.local', ip: 'fe80:0:0:0:403:c025:4f2d:ef5e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.1', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:89)
+	at sun.reflect.GeneratedMethodAccessor42.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy2.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:354)
+	at sun.reflect.GeneratedMethodAccessor42.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:63)
+	at com.sun.proxy.$Proxy3.sendKeys(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:49)
+	at org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+
+Scenario: This is the set up and test for Safari  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.InvalidElementStateException: Element is not currently interactable and may not be manipulated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'mac-207-254-75-12.browserstack.com', ip: '207.254.75.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_65'
+Session ID: null
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{platform=MAC, cssSelectorsEnabled=true, javascriptEnabled=true, secureSsl=true, browserName=safari, takesScreenshot=true, version=5.1.9}]
+Command duration or timeout: 74 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+	at TestSteps.testing_BrowserStack_Live_via_BrowserStack_automate(TestSteps.java:70)
+	at ✽.When Testing BrowserStack Live via BrowserStack automate(browserception.feature:15)
+Caused by: org.openqa.selenium.InvalidElementStateException: Element is not currently interactable and may not be manipulated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'mac-207-254-75-12.browserstack.com', ip: '207.254.75.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.6.8', java.version: '1.6.0_65'
+Session ID: null
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{platform=MAC, cssSelectorsEnabled=true, javascriptEnabled=true, secureSsl=true, browserName=safari, takesScreenshot=true, version=5.1.9}]
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'Haroons-MacBook-Pro.local', ip: 'fe80:0:0:0:403:c025:4f2d:ef5e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.1', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:89)
+	at sun.reflect.GeneratedMethodAccessor42.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy2.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:354)
+	at sun.reflect.GeneratedMethodAccessor42.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:63)
+	at com.sun.proxy.$Proxy3.sendKeys(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:49)
+	at org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+
